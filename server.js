@@ -10,6 +10,7 @@ const cookieParser = require('cookie-parser');
 const app = express();
 const PORT = process.env.port || 3500 ;
 
+app.set('view engines', 'ejs')
 // custom middleware
 app.use( logger);
 
@@ -37,6 +38,9 @@ app.use('/logout', require('./routes/logout'));
 
 app.use(verifyJWT);
 app.use('/employees', require('./routes/api/employees'));
+app.get('/', (req, res) => {
+   res.render('index.ejs');
+})
 
 app.all('*', (req, res) => {
  res.status(404);
