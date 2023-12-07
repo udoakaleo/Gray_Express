@@ -8,6 +8,7 @@ const errorHandler = require('./middleware/errorHandler');
 const verifyJWT = require('./middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
 const app = express();
+const mongoose = require('mongoose'); 
 const PORT = process.env.port || 3500 ;
 
 app.set('view engines', 'ejs')
