@@ -9,8 +9,8 @@ const errorHandler = require('./middleware/errorHandler');
 const verifyJWT = require('./middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
 const app = express();
- const mongoose = require('mongoose'); 
- const conn = require('./config/dbConn');
+const mongoose = require('mongoose'); 
+const conn = require('./config/dbConn');
 const PORT = process.env.port || 3500 ;
 
 

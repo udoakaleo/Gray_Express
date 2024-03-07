@@ -544,3 +544,14 @@
 20231108	10:15:46	a09c51d4-3b98-4127-9aab-66be6fac70fa	DELETE	undefined	/employees
 20231108	10:16:05	f4628db5-dd84-4436-b058-054a86989d94	POST	undefined	/employees
 20231116	22:04:37	8094c74a-6599-4e81-a554-c98cd17895dd	POST	undefined	/auth
+20231208	02:21:34	63186db0-8e3e-4d93-a3ef-b684c48e5032	POST	undefined	/auth
+20231208	02:21:47	0756b3ca-7ad9-4f24-ba9e-1b518d60ecfb	POST	undefined	/auth
+20231208	02:25:05	d2889481-3128-450f-8ff2-84e678f6fe55	POST	undefined	/auth
+20231208	02:25:06	5bb29262-0c1d-493e-85e6-48faabfc34bc	POST	undefined	/auth
+20231208	02:28:16	eb297e5c-95bc-4708-8086-c52a5078ba7d	POST	undefined	/auth
+20231208	02:28:17	206f3fa7-e4ca-4243-a0ff-4c81c4ecb212	POST	undefined	/auth
+20231208	02:29:13	c295e808-6dbe-4563-8ca4-a8cb638c12e6	POST	undefined	/register
+20231208	02:31:14	9ec40233-c5e7-4ba2-9530-7b8616ca7d00	POST	undefined	/register
+20231218	01:54:35	de2e6d4f-6937-4780-9e73-f94a0e0b1288	POST	undefined	/register
+20231218	01:54:41	636b877d-1d27-4a14-bc56-2c17e75038b4	POST	undefined	/register
+20231218	01:56:10	f41d5d33-81ec-4e6b-afce-9616f7bd79b6	POST	undefined	/auth
