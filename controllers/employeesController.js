@@ -1,19 +1,16 @@
-const data = {
-    employees : require('../model/employees.json'),
-    setEmployees : function (data) { this.employees = data}
+const Employee = require('../model/Employee');
 
-};
-
-const getAllEmployees = (req, res) => {
-    res.json(data.employees);
+const getAllEmployees = async (req, res) => {
+    const employees = await Employee.find();
+    if(!employees) return res.status(204).json({message: "employees not found"});
+    res.json(employees);
 }
 
 const createEmployees = (req, res) => {
-    const newEmployee = {
-         id: data.employees[data.employees.length -1].id + 1 || 1,
-        firstName : req.body.firstName,
-         lastName : req.body.lastName
-    };
+   if(!req?.body?.firstname || !req?.body?.lastname ){
+      res.status(400).json;
+   }
+
    if (!newEmployee.firstName || !newEmployee.lastName){
         return res.status(400).json({'message' : 'first and lastName are required'});
     }
